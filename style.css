@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+h1,
+p {
+    font-family: tahoma;
+    position: absolute;
+    color: white;
+    z-index: 3;
+    right: 5px;
+    margin: 5px;
+}
+
+p {
+    top: 40px;
+}
