@@ -141,6 +141,7 @@ function rand(min, max) {
 
     // starting number of balls
     let ballsLength = 25;
+    document.querySelector('p').innerHTML = 'Number of balls: ' + ballsLength;
 
     function loop() {
         // drawing canvas' semi-transparent background
